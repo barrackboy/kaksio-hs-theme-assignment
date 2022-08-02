@@ -1,0 +1,42 @@
+.employee_details{
+    text-align: center;
+}
+.employee_contact{
+    text-align: center;
+    display: block;
+   
+}
+.employee_contact a{
+    display: block;
+    color: #9d29a5;
+    text-decoration: none;
+}
+.employee_linkedin{
+    font-weight: bold;
+}
+.single_employee_card_wrapper{
+    max-width: 350px;
+
+}
+.single_employee_card_wrapper img{
+    width: 100%;
+
+}
+.single_employee_card_section{
+    display: flex;
+}
+.single_employee_card_wrapper{
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    border-radius: 6px;
+    overflow: hidden;
+    transition: .3s all ease;
+}
+.single_employee_card_wrapper:hover{
+    box-shadow: 0 20px 40px -10px rgb(0 0 0 / 30%);
+    transition: .3s all ease;
+}
+.employee_details{
+    padding: 31px 0 ;
+}

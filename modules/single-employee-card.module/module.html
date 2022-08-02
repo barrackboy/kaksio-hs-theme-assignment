@@ -1,0 +1,17 @@
+<section class="single_employee_card_section">
+<div class="single_employee_card_wrapper">
+  <img src="{{ module.employee_image.src }}" alt="{{ module.employee_image.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+  <div class="employee_details">
+  <div class="employee_name_title">
+    <h4>{{ module.employee_name }}</h4>
+    <p>{{ module.title }}</p>
+    </div>
+  
+  <div class="employee_contact">
+{% if module.employee_email %}<a class="employee_email" href="mailto:{{ module.employee_email }}">{{ module.employee_email }}</a>{% endif %}
+{% if module.employee_phone %}<a class="employee_email" href="tel:{{ module.employee_phone }}">{{ module.employee_phone }}</a>{% endif %}
+{% if module.linkedin_url.href %}<a class="employee_linkedin" href="{{ module.linkedin_url.href }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+  </div>
+  </div>
+</div>
+</section>

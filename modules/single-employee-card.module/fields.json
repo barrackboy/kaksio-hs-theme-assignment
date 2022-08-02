@@ -1,0 +1,88 @@
+[ {
+  "id" : "08ec55f9-eda0-d74e-1513-54ca85973779",
+  "name" : "employee_image",
+  "display_width" : null,
+  "label" : "Employee Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : false,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://25899252.fs1.hubspotusercontent-eu1.net/hubfs/25899252/Lovely%20middle-aged%20blond%20woman%20with%20a%20beaming%20smile%20sitting%20on%20a%20sofa%20at%20home%20looking%20at%20the%20camera.jpeg",
+    "alt" : "Lovely middle-aged blond woman with a beaming smile sitting on a sofa at home looking at the camera",
+    "loading" : "lazy",
+    "width" : 1000,
+    "height" : 667,
+    "max_width" : 1000,
+    "max_height" : 667
+  }
+}, {
+  "id" : "f4379250-873f-84a9-8bbc-45fa0891695a",
+  "name" : "employee_name",
+  "display_width" : null,
+  "label" : "Employee name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "Employee name",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Name Surname"
+}, {
+  "id" : "97548235-8e4d-4f59-3809-ec8d3550fc74",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "Occupational Title",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Chief Executive Officer"
+}, {
+  "id" : "8b1b9583-882c-ed22-e630-5646f8602a9e",
+  "name" : "employee_email",
+  "display_width" : null,
+  "label" : "Employee email",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "email",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "someone@example.com"
+}, {
+  "id" : "15fefc26-5ad4-9237-fdf3-b9985d0003a6",
+  "name" : "employee_phone",
+  "display_width" : null,
+  "label" : "Employee phone",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "phone",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "0466123456"
+}, {
+  "id" : "24b84263-961b-7caf-7347-c507130692ea",
+  "name" : "linkedin_url",
+  "display_width" : null,
+  "label" : "Linkedin URL",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG" ],
+  "type" : "url",
+  "default" : {
+    "type" : "EXTERNAL",
+    "href" : "https://www.linkedin.com/feed/",
+    "content_id" : null
+  }
+} ]
