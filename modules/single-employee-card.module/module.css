@@ -12,7 +12,10 @@
     text-decoration: none;
 }
 .employee_linkedin{
-    font-weight: bold;
+    font-weight: bold !important;
+}
+.employee_linkedin:hover{
+    font-weight: bold !important;
 }
 .single_employee_card_wrapper{
     max-width: 350px;
